@@ -1,0 +1,345 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #252323;
+    background-image: url(../image/backvideo.gif);
+    background-size:cover;
+    background-repeat: repeat-y;
+}
+
+.header{
+  padding-top: 20px;
+  position: relative;
+}
+
+.header--logo{
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
+
+.header--logo > a{   
+    line-height: 100px;
+}
+
+.header--logo > a>img{
+    height: 100px;
+    width: 100px;
+}
+
+.header--navbar{
+    flex: 1;
+    font-size: 25px;
+    height: 100px;
+}
+
+.header--navbar__list{
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.header--navbar__list > li{
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+}
+
+.header--navbar__list > li:last-child{
+
+    padding-right: 0px;
+    margin-right: 20px;
+}
+
+.header--navbar__list > li >p {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 0.1em rgb(27, 127, 219), 0 0 0.2em #000000, 0 0 1em #f70505;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.header--navbar__list > li >p:hover,
+.header--logo >a:hover {
+    color: rgb(255, 0, 106);
+}
+
+.main--text{
+    font-size: 100px;
+    justify-content: center;
+}
+
+.main--text >h1{
+    margin: 80px;
+    text-shadow: 0 0 0.13em rgb(248, 132, 0), 0 0 0.2em #000000, 0 0 5em #ff00d4;
+}
+
+.main--social{
+    justify-content: center;
+    font-size: 70px;
+}
+
+.main--social > *{
+    margin: 0px 50px;
+}
+
+.main--social > * > a{
+    color: rgb(0, 0, 0);
+} 
+
+.main--social > * > a:hover{
+    color: white;
+}
+
+.main--social__page {
+    color: wheat;
+    text-shadow: 0 0 0.4em rgb(27, 127, 219), 0 0 0.2em #000000, 0 0 1em #0051ff;
+}
+.main--social__mess{
+    text-shadow: 0 0 0.4em rgb(27, 127, 219), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.main--social__youtube{
+    text-shadow: 0 0 0.4em rgb(255, 0, 0), 0 0 0.2em #000000, 0 0 1em #e62b2b;
+}
+
+
+/* phần drop */
+
+.dropinfo{
+    left: 0;
+    position: absolute;
+    display: none;
+}
+
+.dropinfo-container{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    border: 2px solid red;
+    box-shadow: 0 0 50px red;
+}
+
+.dropinfo--top{
+    display: flex;
+}
+
+.dropinfo--top >h1{
+    margin: 0px;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+.dropinfo--top >i,
+.dropcomic--top >i,
+.dropdonate--container > i{
+   position: absolute;
+   right: 0;
+   margin: 10px;
+   cursor: pointer;
+   color: yellow;
+   
+}
+
+.dropinfo--top >i{
+    text-shadow: 0 0 0.1em rgb(255, 255, 255), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.dropinfo--bottom{
+    margin: 20px;
+}
+
+.dropinfo--bottom >h3{
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+
+
+.dropinfo--bottom >p{
+    color: white;
+    margin: 20px 0px;
+    padding: 0px 20px;
+    line-height: 40px;
+}
+
+.dropcomic{
+    position: absolute;
+    left: 0px;
+    top: 140px;
+    display: none;
+}
+
+.dropcomic-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid yellow;
+    box-shadow: 0 0 50px white;
+    margin-bottom: 20px;
+    width: 95%;
+    margin: auto;
+    position: relative;
+}  
+
+.dropcomic--top{
+    display: flex;
+}
+
+.dropcomic--top>h1{
+    margin: 20px auto;
+    color: yellow;
+    text-shadow: 0 0 0.1em rgb(38, 0, 255), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.dropcomic--top >i{
+    text-shadow: 0 0 0.1em rgb(38, 0, 255), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.listcomic{
+    position: relative;
+}
+.listcomic--item{
+    list-style: none;
+    /* position: relative; */
+}
+
+.listcomic--item__img:hover >img{
+    cursor: pointer;
+    border: 2px solid yellow;
+    box-shadow: 0 0 10px #fffb00;
+}
+
+.listcomic--item__img:hover .listcomic--item__info{
+    display: block;
+}
+
+.listcomic--item__img{
+    width: 90%;
+    margin: 0px auto 20px auto;
+    position: relative;
+}
+
+.listcomic--item__img>img{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.listcomic--item__info{
+    display: flex;
+    width: 100%;
+    height: 96%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0 ,0, 0, 0.7);
+    border: 2px solid yellow;
+    margin: auto;
+    left: 0;
+    display: none;
+}
+
+.listcomic--item__info>ul{
+    padding: 0px;
+    width: 100%;
+}
+
+.listcomic--item__info>p{
+    color: yellow;
+}
+
+.listcomic--item__info>ul>li{
+    font-size: 15px;
+    display: flex;
+    list-style: none;
+    height: 50px;
+}
+
+.listcomic--item__info>ul>li>p{
+    line-height: 50px;
+    width: 40%;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 0.1em rgb(38, 0, 255), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.listcomic--item__info>ul>li>i{
+    color: yellow;
+    font-size: 20px;
+    line-height: 50px;
+    flex: 1;
+    text-align: left;
+    text-shadow: 0 0 0.1em rgb(3, 3, 3), 0 0 0.2em #000000, 0 0 1em #ffffff;
+}
+
+.dropdonate{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+.dropdonate--container{
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 2px solid blue;
+    box-shadow: 0 0 70px #ff0000;
+}
+
+.dropdonate--container > i{
+    right: -60px;
+    text-shadow: 0 0 0.4em rgb(255, 0, 0), 0 0 0.2em #000000, 0 0 1em #e62b2b;
+}
+
+.dropdonate--top{
+    font-size: 40px;
+}
+
+.dropdonate--top >p{
+    color: yellow;
+    text-shadow: 0 0 0.4em rgb(196, 188, 188), 0 0 0.2em #000000, 0 0 1em #e62b2b;
+    padding-top: 10px;
+}
+
+.dropdonate--bottom__info >p{
+    text-shadow: 0 0 0.13em rgb(230, 11, 11), 0 0 0.2em #000000, 0 0 1em #ff00d4;
+    font-weight: bold;
+    font-size:30px;
+    margin:10px 0px;
+}
+
+
+.dropdonate--bottom__img{
+    width: 50%;
+    margin: auto;
+}
+
+.dropdonate--bottom__img >img{
+    width: 100%;
+}
+
+.dropdonate--bottom__more{
+    color: yellow;
+    text-shadow: 0 0 0.4em rgb(241, 238, 238), 0 0 0.2em #000000, 0 0 1em #e62b2b;
+    padding-bottom: 5px;
+}
+
+.dropinfo--bottom> p >a{
+    color: white;
+    font-weight: bold;
+}
+
+.dropinfo--bottom__mess > a{
+    color: white;
+    font-size: 50px;
+}

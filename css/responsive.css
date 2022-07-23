@@ -1,0 +1,167 @@
+@media (max-width:349px){
+
+    body{
+        width: 95%;
+    }
+    .main--text{
+        font-size: 30px;
+    }
+
+    .main--social > *{
+        margin: 0px 30px;
+    }
+
+    .main--text >h1 {
+        margin: 60px
+    }
+
+    .dropinfo-container{
+        width: 90%;
+    }
+
+    .dropcomic,
+    .dropdonate {
+        top: 240px;
+    }
+    
+
+    .dropinfo--top >h1 {
+        font-size: 35px;
+    }
+
+    .dropinfo--bottom {
+        font-size: 15px;
+    }
+
+    .listcomic--item__info>ul>li>p,
+    .listcomic--item__info>ul>li>i,
+    .listcomic--item__info>p {
+        font-size: 10px;
+    }
+    .dropdonate--top >p,
+    .dropdonate--bottom__info >p,
+    .dropdonate--bottom__more{
+        font-size: 20px;
+    }
+
+    .listcomic--item__info>ul>li{
+        height: 30px;
+    }
+    .dropdonate--container > i {
+        right: 0;
+        margin: 5px;
+    }
+
+}
+    
+
+@media (min-width:350px) and (max-width: 534px){
+
+    body{
+        width: 96%;
+    }
+    .header{
+        display: block;
+    }
+
+    .header--logo{
+        text-align: center;
+    }
+
+
+    .main--text{
+        font-size: 30px;
+    }
+
+
+    .dropinfo-container {
+        width: 90%;
+    }
+    .listcomic--item__img:hover.listcomic--item__info{
+        display: block;
+    }
+    .listcomic--item__info>ul>li>p,
+    .listcomic--item__info>ul>li>i {
+        font-size: 15px;
+    }
+    .listcomic--item__info>p{
+        font-size: 20px;
+        margin-top: 0px;
+    }  
+    
+    .dropcomic{
+        top: 210px;
+    }
+    
+    .dropcomic--top>h1{
+        font-size: 30px;
+    }
+
+    .dropdonate--top >p,
+    .dropdonate--bottom__info >p,
+    .dropdonate--bottom__more{
+        font-size: 20px;
+    }
+
+    .dropdonate--container > i {
+        right: 0;
+        margin: 5px;
+    }
+}   
+
+
+@media (min-width:535px) and (max-width: 739px){
+    body{
+        width: 98%;
+    }
+    
+    .main--text{
+        font-size: 55px;
+    }
+    .grid.wide{
+        
+    }
+    .listcomic--item{
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+    .listcomic--item__info>ul>li>p,
+    .listcomic--item__info>ul>li>i {
+        font-size: 15px;
+    }
+    .listcomic--item__info>p{
+        font-size: 20px;
+        margin-top: 0px;
+    } 
+   
+}
+
+@media (min-width:740px) and (max-width: 1023px){
+    
+    body{
+        width: 99%;
+    }
+    .main--text{
+        font-size: 70px;
+    }
+    .listcomic--item__info>ul>li>p,
+    .listcomic--item__info>ul>li>i {
+        font-size: 15px;
+    }
+    .listcomic--item__info>p{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .listcomic--item__info>p{
+        font-size: 20px;
+    }
+
+    
+}
+
+@media (min-width:1024px){
+    body{
+        width: 99%;
+    }
+}
